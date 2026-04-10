@@ -1,0 +1,14 @@
+C:\Users\yeshu\Desktop\BotZap>node bot.js
+
+
+API grok
+
+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
+
+
+
+OpenWeatherMap bbf5cfa0e70dea8f3b0f5591d8b06c2d
+
+https://app.exchangerate-api.com/activate-account este nao chega email pra mim
+
+https://newsapi.org/register/success API key is: 32bc3cfaa5ea465cb619225b22c0b713
