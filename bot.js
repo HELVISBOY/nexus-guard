@@ -122,7 +122,7 @@ const CONFIG = {
     MEU_NOME: 'Helvis Dev. Full Stack',
     
     // IA - GROQ
-    GROQ_API_KEY: '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',
+    GROQ_API_KEY: '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',
     IA_ENABLED: true,
     IA_NAME: 'NEXUS',
     
@@ -313,9 +313,17 @@ const removeCoins = (userId, groupId, amount) => {
 
 // IA - Groq
 const askAI = async (question, mode = 'normal') => {
-    if (!groq) return '❌ IA não configurada.';
+    console.log('🔍 [DEBUG] askAI chamada');
+    console.log('📝 [DEBUG] Pergunta:', question);
     
-    let systemPrompt = `Você é ${CONFIG.IA_NAME}, um assistente inteligente criado por ${CONFIG.MEU_NOME}. Responda em português do Brasil.`;
+    if (!groq) {
+        console.log('❌ [DEBUG] GROQ não inicializado!');
+        return '❌ IA não configurada.';
+    }
+    
+    console.log('✅ [DEBUG] GROQ OK');
+    
+    let systemPrompt = `Você é ${CONFIG.IA_NAME}, um assistente inteligente criado por ${CONFIG.MEU_NOME}. Responda em português do Brasil de forma objetiva e amigável.`;
     
     if (mode === 'resumir') {
         systemPrompt = 'Você é um especialista em resumir textos. Faça resumos concisos e objetivos em português.';
@@ -324,6 +332,8 @@ const askAI = async (question, mode = 'normal') => {
     } else if (mode === 'sentimento') {
         systemPrompt = 'Analise o sentimento do texto e responda apenas: POSITIVO, NEGATIVO ou NEUTRO, seguido de uma breve explicação.';
     }
+    
+    console.log('📤 [DEBUG] Enviando pra GROQ...');
     
     try {
         const completion = await groq.chat.completions.create({
@@ -336,9 +346,16 @@ const askAI = async (question, mode = 'normal') => {
             max_tokens: 1024,
         });
         
-        return completion.choices[0]?.message?.content || 'Desculpe, não consegui processar.';
+        console.log('✅ [DEBUG] GROQ respondeu!');
+        
+        const resposta = completion.choices[0]?.message?.content || 'Desculpe, não consegui processar.';
+        
+        console.log('📥 [DEBUG] Resposta:', resposta.substring(0, 100));
+        
+        return resposta;
     } catch (error) {
-        console.error('Erro na IA:', error);
+        console.log('❌ [DEBUG] ERRO:', error.message);
+        
         return '⚠️ Erro ao processar sua solicitação.';
     }
 };

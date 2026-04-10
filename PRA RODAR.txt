@@ -3,7 +3,7 @@ C:\Users\yeshu\Desktop\BotZap>node bot.js
 
 API grok
 
-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
+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
 
 
 
@@ -12,3 +12,18 @@ OpenWeatherMap bbf5cfa0e70dea8f3b0f5591d8b06c2d
 https://app.exchangerate-api.com/activate-account este nao chega email pra mim
 
 https://newsapi.org/register/success API key is: 32bc3cfaa5ea465cb619225b22c0b713
+
+
+projeto
+https://arena.ai/c/019d7556-abcf-70e5-8a8d-a7c3be8906f1
+
+ESTE É O SITE QUE O BOT TA HOSPEDADO
+
+https://dashboard.render.com/
+
+https://dashboard.render.com/web/srv-d7c96od8nd3s73fab0e0/deploys/dep-d7c96p58nd3s73fab0sg?r=2026-04-10%4006%3A05%3A28%7E2026-04-10%4006%3A09%3A20
+
+LINKADO NESTE
+https://nexus-guard-ueer.onrender.com/ 
+
+  
