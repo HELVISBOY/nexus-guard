@@ -37,3 +37,39 @@ Links finais:
 
 🎨 Render: https://dashboard.render.com  
 
+
+
+⏹️ Vamos parar e investigar!
+
+1️⃣ Aperte Ctrl + C para parar o bot
+
+2️⃣ Depois execute este comando para limpar o cache:
+
+Bash
+
+rmdir /s /q .wwebjs_cache
+
+3️⃣ Agora rode novamente com debug ativado:
+
+Bash
+
+node bot.js
+
+🔍 Ou tente esta alternativa:
+
+Delete a pasta de autenticação e force novo login:
+
+Bash
+
+rmdir /s /q .wwebjs_auth
+
+Depois:
+
+Bash
+
+node bot.js
+
+Deve aparecer um QR Code para escanear!
+
+
+

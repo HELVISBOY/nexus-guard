@@ -1,3 +1,5 @@
-2026/04/10-03:31:08.326 1698 Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/04/10-03:31:08.331 1698 Recovering log #3
-2026/04/10-03:31:08.337 1698 Reusing old log C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 
+2026/04/10-19:00:53.570 4d7c Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/10-19:00:53.582 4d7c Recovering log #3
+2026/04/10-19:00:53.584 4d7c Level-0 table #3: started
+2026/04/10-19:00:53.592 4d7c Level-0 table #3: 24470 bytes OK
+2026/04/10-19:00:53.611 4d7c Delete type=0 #3

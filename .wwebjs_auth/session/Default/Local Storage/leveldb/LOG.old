@@ -1,3 +1,2 @@
-2026/04/10-02:58:46.545 3b50 Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2026/04/10-02:58:46.565 3b50 Recovering log #3
-2026/04/10-02:58:46.567 3b50 Reusing old log C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 
+2026/04/10-14:33:07.606 6b5c Creating DB C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
+2026/04/10-14:33:07.636 6b5c Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001

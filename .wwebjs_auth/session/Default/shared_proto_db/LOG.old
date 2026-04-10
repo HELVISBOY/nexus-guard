@@ -1,3 +1,2 @@
-2026/04/10-02:58:46.730 46f4 Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\shared_proto_db/MANIFEST-000001
-2026/04/10-02:58:46.730 46f4 Recovering log #3
-2026/04/10-02:58:46.731 46f4 Reusing old log C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\shared_proto_db/000003.log 
+2026/04/10-14:33:07.433 614c Creating DB C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\shared_proto_db since it was missing.
+2026/04/10-14:33:07.519 614c Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\shared_proto_db/MANIFEST-000001

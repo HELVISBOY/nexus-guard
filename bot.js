@@ -578,11 +578,15 @@ const searchYouTube = async (query) => {
 // ═══════════════════ EVENTOS ═══════════════════════════
 
 
+let qrCodeData = null;
+
 client.on('qr', (qr) => {
     console.log('\n╔═══════════════════════════════════════╗');
     console.log('║   🤖 NEXUS GUARD v4.0 MEGA ULTIMATE 🤖   ║');
     console.log('╚═══════════════════════════════════════╝\n');
     console.log('📱 Escaneie o QR Code:\n');
+    console.log('🌐 OU acesse: http://localhost:3000/qr');
+    qrCodeData = qr;
     qrcode.generate(qr, { small: true });
 });
 
@@ -1801,3 +1805,29 @@ console.log('  ✅ Sistema de XP/Level');
 console.log('');
 console.log(`👤 Criador: ${CONFIG.MEU_NOME}`);
 console.log('⚡ Aguardando conexão...\n');
+
+// ========== QR CODE WEB ==========
+const QRCode = require('qrcode');
+
+app.get('/qr', async (req, res) => {
+    if (qrCodeData) {
+        try {
+            const qrImage = await QRCode.toDataURL(qrCodeData);
+            res.send(`
+                <html>
+                <body style="display:flex;justify-content:center;align-items:center;height:100vh;background:#111;">
+                    <div style="text-align:center;">
+                        <h1 style="color:#25D366;">📱 NEXUS GUARD</h1>
+                        <p style="color:white;">Escaneie com WhatsApp</p>
+                        <img src="${qrImage}" style="width:400px;height:400px;"/>
+                    </div>
+                </body>
+                </html>
+            `);
+        } catch (err) {
+            res.send('Erro ao gerar QR Code');
+        }
+    } else {
+        res.send('<h1 style="color:white;background:#111;padding:50px;">Aguardando QR Code... Atualize em alguns segundos</h1>');
+    }
+});
