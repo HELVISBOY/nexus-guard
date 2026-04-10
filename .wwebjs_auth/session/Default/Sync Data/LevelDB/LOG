@@ -1,3 +1,2 @@
-2026/04/10-02:34:11.480 4eb8 Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/04/10-02:34:11.487 4eb8 Recovering log #3
-2026/04/10-02:34:11.487 4eb8 Reusing old log C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Sync Data\LevelDB/000003.log 
+2026/04/10-02:46:41.643 3144 Creating DB C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Sync Data\LevelDB since it was missing.
+2026/04/10-02:46:41.801 3144 Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Sync Data\LevelDB/MANIFEST-000001

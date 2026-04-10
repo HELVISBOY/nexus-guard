@@ -1,3 +1,2 @@
-2026/04/10-02:34:11.825 19cc Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Session Storage/MANIFEST-000001
-2026/04/10-02:34:11.825 19cc Recovering log #3
-2026/04/10-02:34:11.828 19cc Reusing old log C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Session Storage/000003.log 
+2026/04/10-02:46:41.827 699c Creating DB C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Session Storage since it was missing.
+2026/04/10-02:46:42.030 699c Reusing MANIFEST C:\Users\yeshu\Desktop\BotZap\.wwebjs_auth\session\Default\Session Storage/MANIFEST-000001

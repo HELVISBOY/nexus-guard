@@ -26,4 +26,13 @@ https://dashboard.render.com/web/srv-d7c96od8nd3s73fab0e0/deploys/dep-d7c96p58nd
 LINKADO NESTE
 https://nexus-guard-ueer.onrender.com/ 
 
+
+🌐 LINKS DO SEU BOT:
+
+Site: https://nexus-guard-ueer.onrender.com
+
+GitHub: https://github.com/HELVISBOY/nexus-guard
+
+Render: https://dashboard.render.com/web/nexus-guard-ueer
   
+
