@@ -29,10 +29,11 @@ https://nexus-guard-ueer.onrender.com/
 
 🌐 LINKS DO SEU BOT:
 
-Site: https://nexus-guard-1.onrender.com/
+Links finais:
 
-GitHub: https://github.com/HELVISBOY/nexus-guard
+🌐 Site: https://nexus-guard-1.onrender.com
 
-Render: https://dashboard.render.com/web/nexus-guard-ueer
-  
+🐙 GitHub: https://github.com/HELVISBOY/nexus-guard
+
+🎨 Render: https://dashboard.render.com  
 
